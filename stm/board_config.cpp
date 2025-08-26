@@ -29,8 +29,6 @@
 
 #include <qul/application.h>
 
-#include "stm32f7xx_hal.h"
-
 extern "C" const Diskio_drvTypeDef SD_Driver;
 
 RTC_HandleTypeDef hrtc;

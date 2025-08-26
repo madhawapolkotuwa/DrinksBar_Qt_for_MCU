@@ -17,9 +17,9 @@
   - Qt for MCUs (tested with Qt 6.x).
   - STM32CubeIDE or a compatible IDE for building and flashing.
   - CMake 3.21.1 or higher.
-  - SD card containing `j.json` and referenced image files (e.g., `latte.png`, `glass.png`).
+  - SD card containing `j.json` and referenced image files (e.g., `001.png`, `002.png`).
 - **Dependencies**:
-  - STM32F7xx HAL Drivers (included in the project).
+  - STM32F7xx HAL Drivers (included in the project) (HAL_sd, HAL_RTC).
   - FatFs library for SD card access.
   - jsmn JSON parser.
 
