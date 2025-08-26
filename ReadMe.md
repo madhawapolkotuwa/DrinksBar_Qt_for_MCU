@@ -94,7 +94,14 @@ The *DrinksBar* application optimizes memory usage by dynamically loading images
 
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
+
+## Third-Party Libraries
+   - [FatFs](http://elm-chan.org/fsw/ff/00index_e.html) Copyright (C) ChaN
+     Licensed under the FatFs open source license (see [LICENSE](3rdParty/fatfs/LICENSE.txt)).
+
+   - [jsmn](https://github.com/zserge/jsmn)  Copyright (C) Serge Zaitsev 
+     Licensed under the MIT License (see [LICENSE](jsmn/LICENSE.txt)).
 
 ## Acknowledgments
 - Built with *Qt for MCUs* by The Qt Company.
