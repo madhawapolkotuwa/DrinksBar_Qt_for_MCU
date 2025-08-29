@@ -1,5 +1,7 @@
 # DrinksBar - Qt for MCUs Drink Ordering System
 
+ [![Youtube Video](https://img.youtube.com/vi/7Y5nrDg19DA/0.jpg)](https://www.youtube.com/watch?v=7Y5nrDg19DA) 
+
 ## Overview
 *DrinksBar* is an embedded application built with *Qt for MCUs* for a drink-ordering system running on the STM32F769 Discovery board. It features a touchscreen QML-based user interface, a real-time clock (RTC) for time and date display, and a JSON-driven drinks menu loaded from an SD card. Users can select hot drinks, cold drinks, or fresh juices, customize options like size and sugar level, and simulate drink preparation. Images are dynamically loaded from the SD card in real-time and removed from RAM after display, optimizing memory for larger pages with images or videos.
 
@@ -50,7 +52,7 @@ DrinksBar/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/madhawapolkotuwa/DrinksBar.git
+   git clone https://github.com/madhawapolkotuwa/DrinksBar_Qt_for_MCU.git
    ```
 
 2. Open `DrinksBar` project in **Qt Creator** and build the poject.
@@ -98,7 +100,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) f
 
 ## Third-Party Libraries
    - [FatFs](http://elm-chan.org/fsw/ff/00index_e.html) Copyright (C) ChaN
-     Licensed under the FatFs open source license (see [LICENSE](3rdParty/fatfs/LICENSE.txt)).
+     Licensed under the FatFs open source license (see [LICENSE](3rdParty/FatFs/LICENSE.txt)).
 
    - [jsmn](https://github.com/zserge/jsmn)  Copyright (C) Serge Zaitsev 
      Licensed under the MIT License (see [LICENSE](jsmn/LICENSE.txt)).
